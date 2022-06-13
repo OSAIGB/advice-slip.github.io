@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    background: black;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: hsl(193, 38%, 86%);
+}
+
+.advice{
+    background: hsl(217, 19%, 24%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+padding: 2em;
+width: 100%;
+max-width: 40%;
+}
+
+.divider{
+    width: 100%;
+}
+.divider2{
+    width: 100%;
+}
+
+.dice{
+ width: 11px;
+   padding-bottom: 5px;
+padding-top: 8px;
+padding-left: 9px;
+padding-right: 7px;
+}
+
+.dicee{
+    
+    position: relative;
+    top: 45px;
+    left: 0px;
+    background-color: hsl(150, 100%, 66%);
+border-radius: 35px;
+width: 28px;
+}
+
+.attribution{
+ position: relative;
+ top: 100px;
+}
+
+.card{
+    color: hsl(150, 100%, 66%);
+    font-size: 16px;
+    position: relative;
+    bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+.new_dice{
+    transform: rotate(360deg);
+
+}
+
+.new_dice{
+    -moz-transition: all 0.6s linear;
+    -webkit-transition: all 0.6s linear;
+    transition: all 0.6s linear;
+    
+
+}
+.text{
+    font-size: 40px;
+   
+}
+
+@media screen and (max-width: 375px){
+    .column{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 376px){
+    .column2{
+        display: none;
+    }
+}
